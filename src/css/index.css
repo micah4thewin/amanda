@@ -8,7 +8,8 @@ body {
 }
 
 .square {
-  height: calc(225px + 7vw);
+  min-height: calc(225px + 7vw);
+  height: auto;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -49,6 +50,18 @@ body {
     border: 2px solid white;
   }
 }
+
+
+@media (max-width: 767px) {
+  /* Your styles for tablet and mobile devices go here */
+  .square {
+    min-height: calc(200px);
+    height: auto;
+  }
+}
+
+
+
 
 .banner {
     border: solid 2px white;
