@@ -1,5 +1,3 @@
-
-
 // This function prevents repeated firing of the event.
 const disableButton = (buttonClass) => {
   const btn = document.querySelector(buttonClass);
@@ -9,13 +7,10 @@ const disableButton = (buttonClass) => {
   }, 10000);
 };
 
-
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function() {
   AOS.init();
 
-
-
-  document.querySelector(".spanish").addEventListener("click", function () {
+  document.querySelector(".spanish").addEventListener("click", function() {
     var options = {
       strings: [
         "Hola, soy Amanda Watson, un terapeuta con licencia que ofrece un apoyo compasivo a individuos de una comunidad diversa e inclusiva. Gracias por visitar mi sitio web.",
@@ -34,9 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
     disableButton(".spanish");
   });
 
-
-
-  document.querySelector(".mandarin").addEventListener("click", function () {
+  document.querySelector(".mandarin").addEventListener("click", function() {
     var options = {
       strings: [
         "你好，我是阿曼达·沃森，一名拥有执照的治疗师，为来自多元和包容社区的个人提供同情的支持。感谢您访问我的网站。",
@@ -55,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
     disableButton(".mandarin");
   });
 
-  document.querySelector(".swahili").addEventListener("click", function () {
+  document.querySelector(".swahili").addEventListener("click", function() {
     var options = {
       strings: [
         "Habari, Mimi ni Amanda Watson, Mtendaji wa kadi wa leseni wa kutumika katika kusaidia watu kutoka katika jamii inayojumuika na inayojumuika. Asante kwa kutembelea tovuti yangu.",
@@ -74,7 +67,7 @@ document.addEventListener("DOMContentLoaded", function () {
     disableButton(".swahili");
   });
 
-  document.querySelector(".arabic").addEventListener("click", function () {
+  document.querySelector(".arabic").addEventListener("click", function() {
     var options = {
       strings: [
         "مرحبا، أنا أماندا واتسون، مستشارة مرخصة تقدم الدعم اللطيف للأفراد من مجتمع متنوع وشامل. شكرا لزيارة موقعي على الويب.",
