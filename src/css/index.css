@@ -8,7 +8,6 @@ body {
 }
 
 .square {
-  min-height: calc(225px + 7vw);
   height: auto;
   background-size: cover;
   background-position: center;
@@ -55,7 +54,6 @@ body {
 @media (max-width: 767px) {
   /* Your styles for tablet and mobile devices go here */
   .square {
-    min-height: calc(200px);
     height: auto;
   }
 }
