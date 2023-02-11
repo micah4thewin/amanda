@@ -1,0 +1,70 @@
+@font-face {
+  font-family: Metropolis;
+  src: url('../fonts/Metropolis-Regular.otf') format('otf'),
+    url('../fonts/Metropolis-Regular.woff') format('woff'),
+    url('../fonts/Metropolis-Regular.woff2') format('woff2');
+  font-weight: regular;
+}
+
+@font-face {
+  font-family: MetropolisBold;
+  src: url('../fonts/Metropolis-ExtraBold.otf') format('otf'),
+    url('../fonts/Metropolis-ExtraBold.woff') format('woff'),
+    url('../fonts/Metropolis-ExtraBold.woff2') format('woff2');
+  font-weight: ExtraBold;
+}
+
+@font-face {
+  font-family: MetropolisLight;
+  src: url('../fonts/Metropolis-Thin.otf') format('otf'),
+    url('../fonts/Metropolis-Thin.woff') format('woff'),
+    url('../fonts/Metropolis-Thin.woff2') format('woff2');
+  font-weight: UltraLight;
+}
+
+#h1 {
+  font-family: Metropolis;
+}
+
+#headerh1 {
+  font-family: MetropolisBold;
+}
+
+#light {
+  font-family: MetropolisLight;
+}
+
+h1 {
+  font-family: MetropolisBold;
+}
+
+h2 {
+  font-family: MetropolisBold;
+}
+
+h3 {
+  font-family: Metropolis;
+}
+
+h4 {
+  font-family: Metropolis;
+}
+
+h5 {
+  font-family: Metropolis;
+}
+
+p {
+  font-family: Metropolis;
+  fonst-size: 16px;
+}
+
+a {
+  font-family: Metropolis;
+}
+
+#about {
+  width: 100%;
+  letter-spacing: 2px;
+  line-height: 30px;
+}

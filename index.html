@@ -17,10 +17,11 @@
   <meta property="og:title" content="Amanda Watson">
   <meta property="og:site_name" content="Amanda Watson">
   <meta property="og:url" content="amandawatson.net">
-  <meta property="og:description" content="Amanda Watson: This website belongs to Amanda Watson.">
+  <meta property="og:description" content="Amanda Watson: Compassionate therapy for a diverse and inclusive community.">
   <meta property="og:type" content="website">
   <meta property="og:image" content="./src/media/preview.png">
   <link rel="stylesheet" href="./src/css/index.css">
+  <link rel="stylesheet" href="./src/css/text.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
@@ -45,43 +46,132 @@
     </div>
   </nav>
 
+  <!-- Main header -->
+  <div class="container-fluid d-flex justify-content-center mx-0 mt-5">
+    <header class="mt-2">
+      <!-- This creates the transparent black overlay over the video which you can modify in the CSS -->
+      <div class="overlay"></div>
+      <div id="vid">
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" poster="./assets/images/videofallback.jpg" id="videoBackground">
+          <source src="./src/media/background1.webm" type="video/webm">
+          <source src="./src/media/background1.ogx" type="video/ogv">
+          <source src="./src/media/background1.mp4" type="video/mp4">
+        </video>
+      </div>
+
+      <!-- start header content -->
+      <div class="container h-100">
+        <div class="d-flex h-100 text-center align-items-center">
+          <div class="w-100 text-white">
+            <div class="d-flex align-items-center  " id="headerBox">
+              <div class="mx-auto text-white my-5">
+                <div>
+                  <h1 class="display-1 px-2 " id="headerh1" data-aos="fade-up">AMANDA WATSON</h1>
+                </div>
+                <div class="text-center justify-content-center w-100 mx-auto">
+                  <p class="typedDesc lead mx-auto mb-5 mt-2 px-3 text-center fs-2" data-aos="fade-up" style="max-width:80%;"></p>
+                  <a href="#header-home" alt="Learn more about Amanda Watson" class="mt-5"> <button type="button" class="btn btn-light btn-lg px-5 py-2 me-md-2 fs-5" data-aos="fade-right">Learn More</button> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+  </div>
+
+  <!-- Inclusive banner -->
   <div class="container-fluid d-flex justify-content-center mx-0">
-    <div class="row w-100 mt-5 pt-3 d-flex justify-content-center align-content-center px-0 mx-0">
+    <div class="row w-100  d-flex justify-content-center align-content-center px-0 mx-0">
 
-      <div class="col-12 col-md-4 d-flex justify-content-center align-items-center flex-column square" style="background-image: url(./src/media/1.png);">
-        <h1 class="display-5 text-white text-bold text-center w-100" data-aos="fade-right">Hello</h1>
-        <p class="typed fs-4 text-white text-bold text-center w-100" data-aos="fade-right"></p>
-        <button type="button" class="english btn btn-outline-light" data-aos="fade-right">Learn more</button>
+      <div class="col-12 p-3 col-md-3 d-flex justify-content-center align-items-center flex-column square" style="background-color:#cbad0c;">
+        <h1 class="display-2 text-dark text-bold text-center" data-aos="fade-right">Hola</h1>
+        <p class="typed2 fs-5 text-dark text-bold text-center w-100" data-aos="fade-right"></p>
+        <button type="button" class="spanish btn btn-lg btn-light mt-4" data-aos="fade-right">Aprende más</button>
       </div>
 
-      <div class="col-12 col-md-4 d-flex justify-content-center align-items-center flex-column square" style="background-image: url(./src/media/2.png);">
-        <h1 class="display-5 text-white text-bold text-center w-100" data-aos="fade-right">Hola</h1>
-        <p class="typed2 fs-4 text-white text-bold text-center w-100" data-aos="fade-right"></p>
-        <button type="button" class="spanish btn btn-outline-light" data-aos="fade-right">Aprende más</button>
+      <div class="col-12 p-3 col-md-3 d-flex justify-content-center align-items-center flex-column square" style="background-color:#aa381e;">
+            <h1 class="display-2 text-light text-bold text-center" data-aos="fade-right">你好</h1>
+        <p class="typed4 fs-5 text-white text-bold" data-aos="fade-right"></p>
+        <button type="button" class="mandarin btn btn-lg btn-light mt-4" data-aos="fade-right">了解更多</button>
       </div>
 
-      <div class="col-12 col-md-4 d-flex justify-content-center align-items-center flex-column square" style="background-image: url(./src/media/3.png);">
-        <h1 class="display-5 text-white text-bold" data-aos="fade-right">Bonjour</h1>
-        <p class="typed3 fs-4 text-white text-bold" data-aos="fade-right"></p>
-        <button type="button" class="french btn btn-outline-light" data-aos="fade-right">En savoir plus</button>
+      <div class="col-12 p-3 col-md-3 d-flex justify-content-center align-items-center flex-column square" style="background-color:#137b3f;">
+            <h1 class="display-2 text-dark text-bold text-center" data-aos="fade-right">Habari</h1>
+        <p class="typed5 fs-5 text-dark text-bold text-center" data-aos="fade-right"></p>
+        <button type="button" class="swahili btn btn-lg btn-light mt-4" data-aos="fade-right">Kujifunza zaidi</button>
       </div>
 
-      <div class="col-12 col-md-4 d-flex justify-content-center align-items-center flex-column square" style="background-image: url(./src/media/5.png);">
-        <h1 class="display-5 text-white text-bold" data-aos="fade-right">你好</h1>
-        <p class="typed4 fs-4 text-white text-bold" data-aos="fade-right"></p>
-        <button type="button" class="mandarin btn btn-outline-light" data-aos="fade-right">了解更多</button>
+      <div class="col-12 p-3 col-md-3 d-flex justify-content-center align-items-center flex-column square" style="background-color:#ebebeb;">
+        <h1 class="display-2 text-dark text-bold text-center" data-aos="fade-right">مرحبا</h1>
+        <p class="typed6 fs-5 text-dark text-bold text-center" data-aos="fade-right"></p>
+        <button type="button" class="arabic btn btn-lg btn-light mt-4" data-aos="fade-right">تعلم المزيد</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Dark Banner -->
+  <div class="container-fluid d-flex justify-content-center mx-0">
+    <div class="banner bg-dark text-secondary px-4 py-5 text-center w-100">
+      <img src="./src/media/talktherapy.png" alt="Amanda Watson"  data-aos="fade-up" style="width:250px;height:250px;">
+      <div class="py-1 mb-3">
+        <p class="fs-2 fw-bold text-white" data-aos="fade-right">Compassionate therapy for a <br> diverse and inclusive community.</p>
+        <div class="col-lg-6 mx-auto mt-3">
+          <button type="button" class="btn btn-lg btn-light btn-lg px-4 mt-3" data-aos="fade-up">Take the first step.</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Body banner -->
+  <div class="container-fluid d-flex justify-content-center mx-0">
+    <div class="row w-100  d-flex justify-content-center align-content-center px-0 mx-0">
+
+      <div class="col-12 col-md-6 d-flex justify-content-center align-items-center flex-column box" id="servicesBox" >
+            <img src="./src/media/services.png" alt="Amanda Watson"  data-aos="fade-up" style="width:250px;height:250px;">
+        <h1 class="display-5 text-white text-bold text-center w-100" data-aos="fade-right">Services</h1>
+            <div class="line bg-light my-4"></div>
+        <P class="fs-2 text-white text-bold text-center w-100" data-aos="fade-right">Learn more about the services offerred by Amanda.</P>
+        <button type="button" class=" btn btn-lg btn-light mt-4" data-aos="fade-right">Services</button>
       </div>
 
-      <div class="col-12 col-md-4 d-flex justify-content-center align-items-center flex-column square" style="background-image: url(./src/media/4.png);">
-        <h1 class="display-5 text-white text-bold" data-aos="fade-right">Habari</h1>
-        <p class="typed5 fs-4 text-white text-bold" data-aos="fade-right"></p>
-        <button type="button" class="swahili btn btn-outline-light" data-aos="fade-right">Kujifunza zaidi</button>
+      <div class="col-12 col-md-6 d-flex justify-content-center align-items-center flex-column box"id="aboutBox" >
+        <img src="./src/media/about.png" alt="Amanda Watson"  data-aos="fade-up" style="width:250px;height:250px;">
+    <h1 class="display-5 text-white text-bold text-center w-100" data-aos="fade-right">About</h1>
+        <div class="line bg-light my-4"></div>
+    <P class="fs-2 text-white text-bold text-center w-100" data-aos="fade-right">Learn more about the Amanda and her qualifications.</P>
+
+
+    <button type="button" class="btn btn-lg btn-light mt-4" data-aos="fade-right">About Amanda</button>
       </div>
 
-      <div class="col-12 col-md-4 d-flex justify-content-center align-items-center flex-column square" style="background-image: url(./src/media/6.png);">
-        <h1 class="display-5 text-white text-bold" data-aos="fade-right">مرحبا</h1>
-        <p class="typed6 fs-5 text-white text-bold" data-aos="fade-right"></p>
-        <button type="button" class="arabic btn btn-outline-light" data-aos="fade-right">تعلم المزيد</button>
+      <div class="col-12 col-md-6 d-flex justify-content-center align-items-center flex-column box" id="directionsBox" >
+        <img src="./src/media/directions.png" alt="Amanda Watson"  data-aos="fade-up" style="width:250px;height:250px;">
+    <h1 class="display-5 text-white text-bold text-center w-100" data-aos="fade-right">Directions</h1>
+        <div class="line bg-light my-4"></div>
+    <P class="fs-2 text-white text-bold text-center w-100" data-aos="fade-right">5108 Frontage Rd NW Auburn, WA 98001</P>
+  <a href="https://www.google.com/maps/dir/44.6411799,-123.063047/5108+Frontage+Rd+NW,+Auburn,+WA+98001/@45.9839914,-122.0370811,10z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x5490590f9dbe7119:0x2a88c950ec5734a!2m2!1d-122.243881!2d47.3474549" alt="Amanda's drving directions link" target="_blank">  <button type="button" class="btn btn-lg btn-light mt-4" data-aos="fade-right">Open in maps</button></a>
+      </div>
+
+      <div class="col-12 col-md-6 d-flex justify-content-center align-items-center flex-column box" id="contactBox">
+        <img src="./src/media/contact.png" alt="Amanda Watson"  data-aos="fade-up" style="width:250px;height:250px;">
+    <h1 class="display-5 text-white text-bold text-center w-100" data-aos="fade-right">Contact</h1>
+    <div class="line bg-light my-4"></div>
+
+    <!-- Social bar -->
+        <div class="d-flex justify-content-around">
+      <a href="#">
+        <i class="bi bi-facebook fs-1 text-white p-3 rounded-circle"></i>
+      </a>
+      <a href="#">
+        <i class="bi bi-instagram fs-1 text-white p-3 rounded-circle"></i>
+      </a>
+      <a href="#">
+        <i class="bi bi-linkedin fs-1 text-white p-3 rounded-circle"></i>
+      </a>
+    </div>
+
+        <button type="button" class="btn btn-lg btn-light mt-4" data-aos="fade-right">Contact Amanda</button>
       </div>
     </div>
   </div>
@@ -95,6 +185,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <script src="./src/js/index.js"></script>
 </body>
 
