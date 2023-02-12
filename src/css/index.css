@@ -1,11 +1,9 @@
 body {
   background: solid;
-  background-color: #efefef;
+  background-color: #000;
 }
 
-#navbarspace {
-  height: 75px;
-}
+
 
 .square {
   height: auto;
@@ -134,7 +132,7 @@ body {
 
 header {
   position: relative;
-  height: calc(700px + 35vw);
+  height: calc(500px + 30vw);
   max-height: 900px;
   min-height: 25rem;
   width: 100%;
