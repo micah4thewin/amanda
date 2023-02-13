@@ -2,17 +2,15 @@ body {
     background: #f3f3f3;
 }
 
-.list-unstyled{
-background: #256D1B;
+.salmon{
+background: #db504a;
 color: white;
 }
 
-.green{
-background: #4c86a8;
+.purple{
+background: #7f5a83;
 color: white;
 }
-
-
 
 
 header {
