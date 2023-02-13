@@ -7,8 +7,14 @@ const disableButton = (buttonClass) => {
   }, 10000);
 };
 
+// Change the copyright
+const copyRight = document.getElementById("copyright"); // Auto Update Copyright
+const currentYear = new Date().getFullYear();
+copyRight.innerHTML = "Amanda Watson ©" + currentYear;
+
 document.addEventListener("DOMContentLoaded", function() {
   AOS.init();
+if(document.getElementById('home')){
 
   document.querySelector(".spanish").addEventListener("click", function() {
     var options = {
@@ -85,6 +91,8 @@ document.addEventListener("DOMContentLoaded", function() {
     var typed = new Typed(".typed6", options);
     disableButton(".arabic");
   });
+
+}
 });
 
 var options = {
@@ -102,8 +110,3 @@ var options = {
   autoInsertCss: false
 };
 var typed = new Typed(".typedDesc", options);
-
-// Change the copyright
-const copyRight = document.getElementById("copyright"); // Auto Update Copyright
-const currentYear = new Date().getFullYear();
-copyRight.innerHTML = "Amanda Watson ©" + currentYear;

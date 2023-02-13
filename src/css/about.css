@@ -1,5 +1,5 @@
 body {
-
+    background: #f3f3f3;
 }
 
 .list-unstyled{
@@ -17,7 +17,7 @@ color: white;
 
 header {
   position: relative;
-  height: calc(500px + 30vw);
+  height: calc(400px + 35vw);
   max-height: 900px;
   min-height: 25rem;
   width: 100%;
@@ -75,4 +75,17 @@ header .overlay {
 #headerBox {
   background-color: rgba(6, 6, 6, 0.4);
   border: solid 2px white;
+}
+
+.neumorphism{
+  border: solid;
+  border-radius: 5px;
+  border-width: 5px;
+  border-color: #f3f3f3;
+  box-shadow:  8px 8px 16px #dddddd,
+               -8px -8px 16px #ffffff;
+}
+
+.neumorphismBG{
+    background: #f3f3f3;
 }
