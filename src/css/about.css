@@ -17,12 +17,12 @@ color: white;
 
 header {
   position: relative;
-  height: calc(400px + 35vw);
+  height: calc(500px + 15vw);
   max-height: 900px;
   min-height: 25rem;
   width: 100%;
   overflow: hidden;
-  background-image: url("../media/fallback.jpg");
+  background-image: url("../media/aboutVideo.jpg");
   background-position: left;
   background-color: #1f271b;
   padding-bottom: 25px;
@@ -64,7 +64,7 @@ header .overlay {
 /* This will use a fallback image instead of a video for devices that commonly do not support the HTML5 video element */
 @media (pointer: coarse) and (hover: none) {
   header {
-    background: url('../media/fallback.jpg') black no-repeat center center scroll;
+    background: url('../media/aboutVideo.jpg') black no-repeat center center scroll;
   }
 
   header video {
