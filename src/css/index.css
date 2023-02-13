@@ -132,7 +132,7 @@ body {
 
 header {
   position: relative;
-  height: calc(500px + 30vw);
+  height: calc(500px + 35vw);
   max-height: 900px;
   min-height: 25rem;
   width: 100%;
