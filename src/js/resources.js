@@ -1,8 +1,8 @@
 var options = {
   strings: [
-    "Celebrating diversity and promoting acceptance for all members of the LGBTQ+ community.",
-    "Creating a judgment-free environment for LGBTQ+ individuals to thrive.",
-    "Supporting the unique journey of each LGBTQ+ individual towards self-discovery and fulfillment.",
+    "Access essential mental health support at SAMHSA's National Helpline.",
+    "Get support 24/7 at The Trevor Project for LGBTQ+ youth.",
+    "Find community and resources at NAMI's website.",
   ],
   typeSpeed: 60,
   smartBackspace: true, // Default value

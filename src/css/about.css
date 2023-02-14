@@ -2,6 +2,10 @@ body {
     background: #f3f3f3;
 }
 
+.navbar-light .navbar-toggler {
+    border-color: transparent !important;
+}
+
 .list-unstyled{
 background: #256D1B;
 color: white;

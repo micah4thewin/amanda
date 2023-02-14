@@ -1,17 +1,19 @@
 body {
-    background: #f3f3f3;
+  background: #f3f3f3;
+}
+.navbar-light .navbar-toggler {
+    border-color: transparent !important;
 }
 
-.salmon{
-background: #db504a;
-color: white;
+.salmon {
+  background: #db504a;
+  color: white;
 }
 
-.purple{
-background: #7f5a83;
-color: white;
+.purple {
+  background: #7f5a83;
+  color: white;
 }
-
 
 header {
   position: relative;
@@ -75,22 +77,23 @@ header .overlay {
   border: solid 2px white;
 }
 
-.neumorphism{
+.neumorphism {
   border: solid;
   border-radius: 5px;
   border-width: 5px;
   border-color: #f3f3f3;
-  box-shadow:  8px 8px 16px #dddddd,
-               -8px -8px 16px #ffffff;
+  box-shadow: 8px 8px 16px #dddddd,
+    -8px -8px 16px #ffffff;
 }
 
-.neumorphismBG{
-    background: #f3f3f3;
+.neumorphismBG {
+  background: #f3f3f3;
 }
 
 .list-group {
   border: none;
 }
-li{
+
+li {
   border: none;
 }
