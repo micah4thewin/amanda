@@ -1,5 +1,6 @@
 ## Amanda
 <img src="./src/media/screenshot.png" alt="Screenshot of dynamic-weather-background in action">
+
 [View it live](https://amandawatson.net/)
 
 
