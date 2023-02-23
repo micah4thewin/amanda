@@ -1,4 +1,4 @@
-##Amanda
+## Amanda
 
 This website belongs to Amanda Watson.
 
