@@ -1,8 +1,9 @@
 ## Amanda
 
-This website belongs to Amanda Watson.
+This website belongs to Amanda Watson.  It communicates a culturally sensitive message about diversity and acceptance from the role of a therapist. 
 
 ## Technical
+
 This website uses several open source libraries via CDN including:
 - Bootstrap 5
 - Typed.js
