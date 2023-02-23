@@ -2,7 +2,7 @@
 
 [View it live](https://amandawatson.net/)
                                    
-This website belongs to Amanda Watson.  It communicates a culturally sensitive message about diversity and acceptance from the role of a therapist. 
+This website wes desgined for Amanda Watson.  It communicates a culturally sensitive message about diversity and acceptance from the role of a therapist. 
 
 ## Technical
 
