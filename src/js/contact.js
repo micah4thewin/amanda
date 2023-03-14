@@ -13,3 +13,21 @@ var options = {
   autoInsertCss: false
 };
 var typed = new Typed(".typedDescAbout", options);
+
+
+// Wait for the DOM to fully load before running the script
+document.addEventListener("DOMContentLoaded", function() {
+  // Find the form element in the DOM
+  const form = document.querySelector('form[action="https://formspree.io/f/xwkjqqop"]');
+
+  // If the form is found, clear its input values
+  if (form) {
+    // Find all input and textarea elements in the form
+    const formInputs = form.querySelectorAll('input, textarea');
+
+    // Loop through each input and set its value to an empty string
+    formInputs.forEach(input => {
+      input.value = '';
+    });
+  }
+});
