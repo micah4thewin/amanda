@@ -20,8 +20,8 @@ if(document.getElementById('home')){
     var options = {
       strings: [
         "Hola, soy Amanda Watson, un terapeuta con licencia que ofrece un apoyo compasivo a individuos de una comunidad diversa e inclusiva. Gracias por visitar mi sitio web.",
-        "Si está luchando con pensamientos de suicidio, preocupado por alguien cercano a usted o simplemente necesita apoyo emocional, lo animo a buscar ayuda. La Línea Nacional de Prevención del Suicidio está disponible las 24 horas del día, los 7 días de la semana al 988.",
-        "Tenga en cuenta que en este momento no estoy aceptando nuevos clientes a través de mi sitio web. Si tiene alguna pregunta o desea obtener más información sobre los servicios que ofrezco, no dude en comunicarse conmigo."
+  "Si está luchando con pensamientos de suicidio, preocupado por alguien cercano a usted o simplemente necesita apoyo emocional, lo animo a buscar ayuda. La Línea Nacional de Prevención del Suicidio está disponible las 24 horas del día, los 7 días de la semana al 988.",
+  "Tenga en cuenta que en este momento no estoy aceptando nuevos clientes a través de mi sitio web. Si tiene alguna pregunta o desea obtener más información sobre los servicios que ofrezco, no dude en comunicarse conmigo."
       ],
       typeSpeed: 35,
       smartBackspace: false,

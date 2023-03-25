@@ -1,8 +1,14 @@
+html, body {
+  overflow-x: hidden;
+  height: auto;
+}
+
 body {
   background: #f3f3f3;
 }
+
 .navbar-light .navbar-toggler {
-    border-color: transparent !important;
+  border-color: transparent !important;
 }
 
 .salmon {
